@@ -9,7 +9,7 @@
                 "Coffee-Tracker is an interactive website built with React-Js and the script is to track the caffine content in the user's blood",
         },
         {
-            name: "Utlimate Todos",
+            name: "Daily-Does",
             icon: "fa-solid fa-list-check",
             description:
                 "Test for model robustness with customized test profiles and receive exhaustive reporting on the performance and potential vulnerabilities of your model.",
@@ -108,16 +108,13 @@
                     > It caculates the cafeine content in the user's blood using coffe consumption.
                 </p>
             </Step>
-            <Step step={steps[1]}>
+            <Step step={{...steps[1], href: "https://dailydoes.netlify.app"}}>
                 <p>
-                    Ultimate Todos is a Full Stack <strong
-                        class="text-violet-400">Next.js</strong
-                    >,
-                    <strong class="text-violet-400">Node.js + Express.js</strong
-                    >
-                    & <strong class="text-violet-400">Firebase</strong> CRUD application
-                    that allows a user to login, manage a tidy and efficacious todo
-                    list, and persist this information across devices.
+                    This is a sleek and minimal To-Do List Web App built with <strong
+                        class="text-violet-400">React.js</strong
+                    >. It allows users to add, complete, and delete tasks easily, with a custom fantasy-inspired CSS theme 
+                    <strong class="text-violet-400">Fanta.css.</strong
+                        ><br/>The app supports : Task Management, Filter Tabs, Dark Mode Support and Local Storage.
                 </p>
             </Step>
             <Step step={steps[2]}>
