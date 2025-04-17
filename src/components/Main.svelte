@@ -119,8 +119,7 @@
             </Step>
             <Step step={{...steps[2], href: "https://github.com/Nikesh-3103/coloranto"}}>
                 <p>
-                    <p>
-                        A deep learning pipeline to colorize black and white images using state-of-the-art <strong
+                    <p>A deep learning pipeline to colorize black and white images using state-of-the-art <strong
                             class="text-violet-400"
                             > CNN architectures (ECCV16 and SIGGRAPH17)</strong
                         >. Integrated PyTorch models to predict color channels from grayscale inputs in the LAB color space. Implemented preprocessing, model inference, and postprocessing to generate high-quality colorized outputs. Supported GPU acceleration and batch processing for performance optimization.
