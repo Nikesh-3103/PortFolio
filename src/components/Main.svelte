@@ -59,13 +59,17 @@
                 My <span class="text-violet-400"> favorite tech</span> includes Data Structures, Core java, CPP, React-JS, Machine Learning!
             </p>
             <button
-                class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
-            >
-                <div
-                    class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
-                />
-                <h4 class="relative z-9">Get in touch &rarr;</h4>
-            </button>
+    class="blueShadow mx-auto lg:mr-auto lg:ml-80 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 hover:bg-violet-400 hover:text-white transition duration-300"
+>
+    <a
+        href="/NIKESH%20KUMAR%20RESUME%201P.pdf"
+        download
+        class="relative z-10"
+    >
+        <h4>Download Resume &darr;</h4>
+    </a>
+</button>
+
         </div>
         <div class="relative shadow-2xl grid place-items-center">
             <img
