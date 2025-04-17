@@ -118,7 +118,7 @@
                         class="text-violet-400">React.js</strong
                     >. It allows users to add, complete, and delete tasks easily, with a custom fantasy-inspired CSS theme 
                     <strong class="text-violet-400">Fanta.css.</strong
-                        ><br/>The app supports : Task Management, Filter Tabs, Dark Mode Support and Local Storage.
+                        ><br/>The app supports : Task Management, Filter Tabs, Dark Mode Support ,Local Storage and Browser notification enabled.
                 </p>
             </Step>
             <Step step={{...steps[2], href: "https://github.com/Nikesh-3103/coloranto"}}>
