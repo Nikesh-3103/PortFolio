@@ -15,10 +15,10 @@
                 "Test for model robustness with customized test profiles and receive exhaustive reporting on the performance and potential vulnerabilities of your model.",
         },
         {
-            name: "DeepFake-Detection",
+            name: "Coloranto",
             icon: "fa-solid fa-face-meh",
             description:
-                "DeepFake videos can be found using the Machine-Learning models in this project.",
+                "Image Colorization Using Deep Learning.",
         },
     ];
 
@@ -117,13 +117,13 @@
                         ><br/>The app supports : Task Management, Filter Tabs, Dark Mode Support and Local Storage.
                 </p>
             </Step>
-            <Step step={steps[2]}>
+            <Step step={{...steps[2], href: "https://github.com/Nikesh-3103/coloranto"}}>
                 <p>
                     <p>
-                        DeepFake-Detection is the project based on<strong
+                        A deep learning pipeline to colorize black and white images using state-of-the-art <strong
                             class="text-violet-400"
-                            >CNN in ML</strong
-                        > It finds out the DeepFake videos by dividing the frames in it by using PCA.
+                            > CNN architectures (ECCV16 and SIGGRAPH17)</strong
+                        >. Integrated PyTorch models to predict color channels from grayscale inputs in the LAB color space. Implemented preprocessing, model inference, and postprocessing to generate high-quality colorized outputs. Supported GPU acceleration and batch processing for performance optimization.
                     </p>
             </Step>
         </div>
