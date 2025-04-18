@@ -2,12 +2,12 @@
     import Step from "./Step.svelte";
 
     let steps = [
-        {
-            name: "Coffee-Tracker",
-            icon: "fa-solid fa-mug-hot",
-            description:
-                "Coffee-Tracker is an interactive website built with React-Js and the script is to track the caffine content in the user's blood",
-        },
+        // {
+        //     name: "Coffee-Tracker",
+        //     icon: "fa-solid fa-mug-hot",
+        //     description:
+        //         "Coffee-Tracker is an interactive website built with React-Js and the script is to track the caffine content in the user's blood",
+        // },
         {
             name: "Daily-Does",
             icon: "fa-solid fa-list-check",
@@ -16,9 +16,15 @@
         },
         {
             name: "Coloranto",
-            icon: "fa-solid fa-face-meh",
+            icon: "fa-solid fa-camera-retro",
             description:
                 "Image Colorization Using Deep Learning.",
+        },
+        {
+            name: "VocalSense",
+            icon: "fa-brands fa-speaker-deck",
+            description:
+                "Vocal emotion analysis and detection Using Deep Learning.",
         },
     ];
 
@@ -104,15 +110,15 @@
             </h3>
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
-            <Step step={steps[0]}>
+            <!-- <Step step={steps[0]}>
                 <p>
                     Coffee-Tracker is a cafeine calculating website made with <strong
                         class="text-violet-400"
                         >React.js.</strong
                     > It caculates the cafeine content in the user's blood using coffe consumption.
                 </p>
-            </Step>
-            <Step step={{...steps[1], href: "https://dailydoes.netlify.app"}}>
+            </Step> -->
+            <Step step={{...steps[0], href: "https://dailydoes.netlify.app"}}>
                 <p>
                     This is a sleek and minimal To-Do List Web App built with <strong
                         class="text-violet-400">React.js</strong
@@ -121,11 +127,22 @@
                         ><br/>The app supports : Task Management, Filter Tabs, Dark Mode Support ,Local Storage and Browser notification enabled.
                 </p>
             </Step>
-            <Step step={{...steps[2], href: "https://github.com/Nikesh-3103/coloranto"}}>
+            <Step step={{...steps[1], href: "https://github.com/Nikesh-3103/coloranto"}}>
                     <p>A Deep learning pipeline to colorize black and white images using state-of-the-art <strong
                             class="text-violet-400"
                             > CNN architectures ( ECCV16 and SIGGRAPH17 )</strong
                         >. Integrated PyTorch models to predict color channels from grayscale inputs in the LAB color space. Implemented preprocessing, model inference, and postprocessing to generate high-quality colorized outputs. Supported GPU acceleration and batch processing for performance optimization.
+                    </p>
+            </Step>
+            <Step step={{...steps[2], href: "https://github.com/Nikesh-3103/VocalSense"}}>
+                    <p>An advanced Emotion Recognition system using speech audio data. The project utilizes cutting-edge techniques in Natural Language Processing (NLP) and Deep Learning, specifically <strong
+                            class="text-violet-400"
+                            > CNNs(Neural-Networking) and Bi-LSTM models</strong
+                        > to accurately predict emotional states from audio signals. The system processes raw speech data, extracts features using
+                        <strong
+                            class="text-violet-400"
+                            > Wav2Vec2</strong
+                        > , and classifies emotions such as happiness, anger, sadness, and more.
                     </p>
             </Step>
         </div>
