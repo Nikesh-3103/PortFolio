@@ -68,7 +68,7 @@
     class="blueShadow mx-auto lg:mr-auto lg:ml-80 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 hover:bg-violet-400 hover:text-white transition duration-300"
 >
     <a
-        href="/NIKESH%20KUMAR%20RESUME%201P.pdf"
+        href="C:\Project\PortFolio\static\NIKESH KUMAR m ggl.pdf"
         download
         class="relative z-10"
     >
